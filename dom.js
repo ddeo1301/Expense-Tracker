@@ -43,7 +43,7 @@ function registerUser(event){
 
 
         parentItem.appendChild(childItem);
-        parentItem.appendChild(deleteItem);
-        parentItem.appendChild(editItem);
+        childItem.appendChild(deleteItem);
+        childItem.appendChild(editItem);
     }
 }
